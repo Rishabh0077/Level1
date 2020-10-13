@@ -17,7 +17,7 @@ public class Q18 {
       str = str.toLowerCase();
       l = str.length();
       char ch;
-      int a1;
+      char a1;
       for(a1='a';a1<='z';a1++)
       {
           int count = 0;
@@ -32,7 +32,7 @@ public class Q18 {
           
          if(count>0)
          {
-             System.out.println("The Frequency of an no. is" + " " + a1 + " " + count);
+             System.out.println("The Frequency of " + " " + a1 + " " + count);
          }
       }
         
